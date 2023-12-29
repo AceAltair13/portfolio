@@ -1,7 +1,7 @@
 function SkillTile({ title, icon }) {
     return <div className="group col-span-1 text-center bg-slate-600 rounded-3xl shadow-md">
-        <div className="bg-slate-800 p-4 rounded-tl-3xl rounded-tr-3xl transition-colors duration-200 group-hover:bg-green-400 group-hover:shadow-inner">
-            <p className="text-5xl text-slate-200 transition-colors duration-200 group-hover:text-black">{icon}</p>
+        <div className="bg-slate-800 p-4 rounded-tl-3xl rounded-tr-3xl transition-colors group-hover:bg-green-400 group-hover:shadow-inner">
+            <p className="text-5xl text-slate-200 transition-colors group-hover:text-black">{icon}</p>
         </div>
         <p className="text-slate-200 text-lg my-2">{title}</p>
     </div>

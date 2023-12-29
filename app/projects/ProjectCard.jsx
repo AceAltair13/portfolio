@@ -8,11 +8,11 @@ import { IoCaretUpCircle } from "react-icons/io5";
 export default function ProjectCard({ title, description, image, link, skills }) {
 
     const [isExpanded, setIsExpanded] = useState(false);
-    const buttonClasses = "transition-color duration-200 text-2xl text-slate-400 hover:text-slate-100"
+    const buttonClasses = "transition-color text-2xl text-slate-400 hover:text-slate-100"
 
     return (
         <>
-            <div className="group transition-colors duration-200 hover:bg-green-400 col-span-1 bg-slate-700 p-4 rounded-lg shadow-md">
+            <div className="group transition-colors hover:bg-green-400 col-span-1 bg-slate-700 p-4 rounded-lg shadow-md">
                 <div className="bg-slate-900 rounded p-1">
                     <Link href={link} target="_blank">
                         <Image src={image} alt={title} className="rounded h-44" />
@@ -45,8 +45,8 @@ export default function ProjectCard({ title, description, image, link, skills })
                         </div>
                     </div>
                 </div>
-                <h2 className="text-slate-100 text-2xl my-3 transition-colors duration-200 group-hover:text-black font-bold">{title}</h2>
-                <p className="text-slate-300 text-base transition-colors duration-200 group-hover:text-black">{description}</p>
+                <h2 className="text-slate-100 text-2xl my-3 transition-colors group-hover:text-black font-bold">{title}</h2>
+                <p className="text-slate-300 text-base transition-colors group-hover:text-black">{description}</p>
             </div>
         </>
     )

@@ -1,3 +1,6 @@
+import Link from "next/link"
+import { RESUME_LINK } from "../data/constants"
+
 const Hero = () => {
     return (
         <div className='min-h-svh grid justify-around items-center grid-cols-2'>
@@ -7,9 +10,9 @@ const Hero = () => {
                 <p className='text-lg text-slate-400 mb-12'>
                     Dedicated software developer, known for leadership and organizational skills. Passionate coder, gamer, and volunteer, driven to innovate and impact the community.
                 </p>
-                <button className='bg-green-400 hover:bg-green-600 px-6 py-3 rounded-full'>
+                <Link href={RESUME_LINK} target="_blank" className='bg-green-400 transition-colors hover:bg-green-600 px-6 py-3 rounded-full'>
                     View Resume
-                </button>
+                </Link>
             </div>
             <div className='col-span-1'>
                 <dotlottie-player src="https://lottie.host/2feb991f-a744-43cd-903a-be7b63269d41/CrySeVdJOD.json" background="transparent" speed="1" className="object-cover" direction="1" mode="normal" loop autoplay></dotlottie-player>
