@@ -10,6 +10,7 @@ import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiFlutterFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
@@ -111,6 +112,7 @@ export const techSkills = {
   },
   aspnet: { title: "ASP.NET", icon: <DiDotnet className="inline-icon" /> },
   reactjs: { title: "React.js", icon: <FaReact className="inline-icon" /> },
+  nextjs: { title: "Next.js", icon: <SiNextdotjs className="inline-icon" /> },
   redux: { title: "Redux", icon: <SiRedux className="inline-icon" /> },
   angular: { title: "Angular", icon: <FaAngular className="inline-icon" /> },
   dotnet: { title: ".Net", icon: <DiDotnet className="inline-icon" /> },

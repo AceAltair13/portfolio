@@ -47,6 +47,7 @@ const webdevSkills = [
   "expressjs",
   "aspnet",
   "reactjs",
+  "nextjs",
   "redux",
   "angular",
   "dotnet",

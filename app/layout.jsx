@@ -4,6 +4,7 @@ import './globals.css'
 // Components
 import Navbar from './components/Navbar'
 import Script from 'next/script'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
+        <Footer />
         <Script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></Script>
       </body>
     </html>
