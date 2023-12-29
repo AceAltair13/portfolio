@@ -3,7 +3,6 @@ import TirthImage from "../../public/tirth.jpg";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 import Image from "next/image";
-import Links from "./links";
 
 export default function page() {
   return (
