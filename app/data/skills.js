@@ -42,6 +42,7 @@ import { SiAdobeacrobatreader } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 
 export const techSkills = {
   // Programming
@@ -53,6 +54,7 @@ export const techSkills = {
   kotlin: { title: "Kotlin", icon: <SiKotlin className="inline-icon" /> },
   r: { title: "R", icon: <SiRstudio className="inline-icon" /> },
   php: { title: "PHP", icon: <FaPhp className="inline-icon" /> },
+  gdscript: { title: "GDScript", icon: <SiGodotengine className="inline-icon" /> },
 
   // Database
   mysql: { title: "MySQL", icon: <SiMysql className="inline-icon" /> },
@@ -128,6 +130,7 @@ export const techSkills = {
   git: { title: "Git", icon: <FaGitAlt className="inline-icon" /> },
 
   // Tools & Software
+  postman: { title: "Postman", icon: <SiPostman className="inline-icon" /> },
   canva: { title: "Canva", icon: <SiCanva className="inline-icon" /> },
   adobeexpress: {
     title: "Adobe Express",

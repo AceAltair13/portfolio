@@ -10,3 +10,4 @@ export const INSTAGRAM_LINK = 'https://www.instagram.com/tirth_thoria?igsh=OGQ5Z
 export const LOCATION = 'Long Beach, California, United States'
 export const EMAIL_ID = 'tirththoria13@gmail.com'
 export const PHONE_NUMBER = '+1 (562) 552-3589'
+export const BIRTH_DATE = '13th June, 2000'

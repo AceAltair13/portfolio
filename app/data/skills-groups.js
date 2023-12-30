@@ -15,6 +15,7 @@ const programmingSkills = [
   "kotlin",
   "r",
   "php",
+  "gdscript",
 ].map((skill) => techSkills[skill] || { title: skill, icon: null });
 
 const databaseSkills = [
@@ -58,6 +59,7 @@ const cloudSkills = ["restapi", "aws", "azure", "heroku", "git"].map(
 );
 
 const toolsSkills = [
+  "postman",
   "canva",
   "adobeexpress",
   "godotengine",

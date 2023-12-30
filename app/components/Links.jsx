@@ -1,4 +1,3 @@
-import React from 'react'
 import { GITHUB_LINK, EMAIL_ID, INSTAGRAM_LINK, LINKEDIN_LINK, LOCATION, PHONE_NUMBER } from '../data/constants'
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
@@ -42,7 +41,7 @@ const links = [
 
 export default function Links() {
     return (
-        <div className="columns-1 px-4 mt-4">
+        <div className="">
             {
                 links.map((link, index) => (
                     <div key={index} className="text-slate-300 text-lg">
