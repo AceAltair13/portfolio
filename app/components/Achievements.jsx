@@ -5,7 +5,7 @@ export default function Achievements() {
     return (
         <div className="mt-28">
             <h1 className="text-5xl font-extrabold text-slate-200 text-center"><FaTrophy className="inline-icon" />{" "}Achievements</h1>
-            <div className="mt-6 bg-gray-800 bg-opacity-85 p-10 rounded-3xl">
+            <div className="mt-12 bg-gray-800 bg-opacity-85 p-10 rounded-3xl">
                 <ul className="list-none text-slate-300 px-5 mx-8">
                     {
                         achievements.map((achievement, index) => (
