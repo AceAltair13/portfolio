@@ -22,7 +22,7 @@ function ExperienceCard(experience) {
                 </ul>
                 <div className="flex flex-wrap bg-slate-700 bg-opacity-75 rounded-md p-2 mt-4">
                     {
-                        experience.skills.map((skill, ind) => <p key={ind} className="rounded-full px-3 py-1 m-1 bg-slate-600 border-2 border-slate-700 text-slate-300"><span className="text-slate-800">{skill.icon}</span>{" "}{skill.title}</p>)
+                        experience.skills.map((skill, ind) => <p key={ind} className="rounded-full px-3 py-1 m-1 bg-slate-600 border-2 border-slate-700 text-slate-300">{skill.icon}{" "}{skill.title}</p>)
                     }
                 </div>
             </div>

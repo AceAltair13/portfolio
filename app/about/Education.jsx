@@ -12,7 +12,7 @@ function EducationCard(education) {
             </div>
             <div className="col-span-6 p-3">
                 <h3 className="text-3xl font-extrabold text-slate-200">{education.school}</h3>
-                <h4 className="text-xl text-green-400">{education.degree}</h4>
+                <h4 className="text-xl text-green-400">{education.degree} &bull; {education.major}</h4>
                 <h6 className="text-md text-slate-300 mt-2"><FaLocationDot className="inline-icon" />{education.location}</h6>
                 <p className="text-md text-slate-400">{education.start} - {education.end}</p>
                 <div className="flex flex-wrap bg-slate-700 bg-opacity-75 rounded-md p-2 mt-4">
