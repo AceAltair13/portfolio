@@ -23,5 +23,5 @@ nav {
 
 /* Main */
 main {
-  @apply container mx-auto px-4;
+  @apply container mx-auto md:px-12 p-6;
 }
