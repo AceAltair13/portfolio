@@ -12,10 +12,10 @@ export default function ProjectCard({ title, description, image, link, skills })
 
     return (
         <>
-            <div className="group transition-colors hover:bg-green-400 col-span-1 bg-slate-700 p-4 rounded-lg shadow-md">
+            <div className="group transition-colors md:hover:bg-green-400 col-span-1 bg-slate-700 md:p-4 p-3 rounded-lg md:shadow-md shadow">
                 <div className="bg-slate-900 rounded p-1">
                     <Link href={link} target="_blank">
-                        <Image src={image} alt={title} className="rounded h-44" />
+                        <Image src={image} alt={title} className="rounded md:h-44 h-22" />
                     </Link>
                     <div className="grid grid-cols-10">
                         <div className="col-span-9 px-2 pt-2">
@@ -45,8 +45,8 @@ export default function ProjectCard({ title, description, image, link, skills })
                         </div>
                     </div>
                 </div>
-                <h2 className="text-slate-100 text-2xl my-3 transition-colors group-hover:text-black font-bold">{title}</h2>
-                <p className="text-slate-300 text-base transition-colors group-hover:text-black">{description}</p>
+                <h2 className="text-slate-100 md:text-2xl text-lg md:my-3 my-1 transition-colors md:group-hover:text-black font-bold">{title}</h2>
+                <p className="text-slate-300 md:text-base text-xs transition-colors md:group-hover:text-black">{description}</p>
             </div>
         </>
     )
