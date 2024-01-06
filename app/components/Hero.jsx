@@ -3,7 +3,7 @@ import { RESUME_LINK } from "../data/constants"
 
 const Hero = () => {
     return (
-        <div className='min-h-[65svh] grid md:grid-cols-2 justify-around md:items-center'>
+        <div className='lg:min-h-svh min-h-[65svh] grid md:grid-cols-2 justify-around md:items-center'>
             <div className="md:col-span-1">
                 <div className='bg-gray-800 bg-opacity-85 p-10 rounded-3xl md:mt-0 mt-20 md:text-left text-center'>
                     <h1 className='text-4xl md:text-6xl font-extrabold text-slate-50 mb-4 md:text-left text-center'>Hi, I am <span className="text-amber-500">Tirth</span>🙋🏻‍♂️</h1>
