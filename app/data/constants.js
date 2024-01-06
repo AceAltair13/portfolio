@@ -1,5 +1,5 @@
 /* Resume Link */
-export const RESUME_LINK = 'https://drive.google.com/file/d/1QsbufcaIptxIdXR23REuCkIBMQjjoOhz/view?usp=sharing'
+export const RESUME_LINK = 'https://drive.google.com/file/d/1I1YBR9HBlKpZyy9nKgUWm9y4NCcgL1-L/view?usp=sharing'
 
 /* Social Links */
 export const GITHUB_LINK = 'https://github.com/AceAltair13'
