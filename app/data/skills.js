@@ -43,6 +43,8 @@ import { SiRedux } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { SiApollographql } from "react-icons/si";
 
 export const techSkills = {
   // Programming
@@ -121,6 +123,8 @@ export const techSkills = {
 
   // Cloud Development
   restapi: { title: "REST API", icon: <TbApi className="inline-icon" /> },
+  graphql: { title: "GraphQL", icon: <GrGraphQl className="inline-icon" /> },
+  apollo: { title: "Apollo", icon: <SiApollographql className="inline-icon" /> },
   aws: { title: "AWS", icon: <FaAws className="inline-icon" /> },
   azure: {
     title: "Microsoft Azure",

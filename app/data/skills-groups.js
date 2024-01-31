@@ -54,7 +54,7 @@ const webdevSkills = [
   "dotnet",
 ].map((skill) => techSkills[skill] || { title: skill, icon: null });
 
-const cloudSkills = ["restapi", "aws", "azure", "heroku", "git"].map(
+const cloudSkills = ["restapi", "graphql", "apollo", "aws", "azure", "heroku", "git"].map(
   (skill) => techSkills[skill] || { title: skill, icon: null }
 );
 
