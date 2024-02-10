@@ -11,9 +11,9 @@ export const experience = [
     start: "June 2022",
     end: "July 2023",
     description: [
-      "Designed and developed innovative software solutions tailored to meet precise business requirements, resulting in improved operational efficiency.",
-      "Led cross-functional teams in the successful delivery of application design, effectively communicating project vision and ensuring alignment with client goals.",
-      "Developed comprehensive testing plans and executed rigorous testing protocols, resulting in a 20% reduction in post-release defects.",
+      "Developed and maintained a robust web application using the .NET framework, C#, and Angular with TypeScript, resulting in a 30% improvement in system performance and user experience.",
+      "Utilized DuckCreek for designing and managing insurance policies, leading to a 25% increase in policy administration efficiency and customization.",
+      "Implemented CI/CD pipelines using Jenkins, which streamlined the development process, improved code quality by 40%, and accelerated the release cycle by 50%.",
     ],
     skills: [techSkills.csharp, techSkills.dotnet, techSkills.aspnet, techSkills.angular],
     image: AccentureImage,
