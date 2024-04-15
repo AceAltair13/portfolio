@@ -11,7 +11,7 @@ const Hero = () => {
                     <p className='text-base md:text-lg text-slate-400 mb-12'>
                         Dedicated software developer, known for leadership and organizational skills. Passionate coder, gamer, and volunteer, driven to innovate and impact the community.
                     </p>
-                    <Link href={RESUME_LINK} target="_blank" className='bg-green-500 text-slate-50 transition-colors hover:bg-green-600 px-6 py-3 md:rounded-full rounded-lg'>
+                    <Link href={RESUME_LINK} target="_blank" className='text-lg bg-green-600 text-slate-50 transition-colors hover:bg-green-700 px-6 py-4 rounded'>
                         View Resume
                     </Link>
                 </div>
