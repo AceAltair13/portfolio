@@ -14,6 +14,9 @@ export const education = [
       "Advanced Analysis of Algorithms",
       "Advanced Software Engineering",
       "Advanced Topics in Programming Languages",
+      "Advanced Computer Architecture",
+      "Advanced Artificial Intelligence",
+      "Pattern Recognition"
     ],
     start: "2023",
     end: "2025",
