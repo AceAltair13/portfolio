@@ -13,6 +13,7 @@ const programmingSkills = [
   "csharp",
   "java",
   "kotlin",
+  "dart",
   "r",
   "php",
   "gdscript",
@@ -44,14 +45,17 @@ const webdevSkills = [
   "html",
   "css",
   "javascript",
+  "typescript",
   "nodejs",
   "expressjs",
   "aspnet",
   "reactjs",
+  "reactnative",
   "nextjs",
   "redux",
   "angular",
   "dotnet",
+  "json"
 ].map((skill) => techSkills[skill] || { title: skill, icon: null });
 
 const cloudSkills = ["restapi", "graphql", "apollo", "aws", "azure", "heroku", "git"].map(

@@ -45,6 +45,10 @@ import { SiDjango } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { SiApollographql } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiDart } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { SiJson } from "react-icons/si";
 
 export const techSkills = {
   // Programming
@@ -54,6 +58,7 @@ export const techSkills = {
   csharp: { title: "C#", icon: <TbBrandCSharp className="inline-icon" /> },
   java: { title: "Java", icon: <FaJava className="inline-icon" /> },
   kotlin: { title: "Kotlin", icon: <SiKotlin className="inline-icon" /> },
+  dart: { title: "Dart", icon: <SiDart className="inline-icon" /> },
   r: { title: "R", icon: <SiRstudio className="inline-icon" /> },
   php: { title: "PHP", icon: <FaPhp className="inline-icon" /> },
   gdscript: { title: "GDScript", icon: <SiGodotengine className="inline-icon" /> },
@@ -109,6 +114,10 @@ export const techSkills = {
     title: "JavaScript",
     icon: <IoLogoJavascript className="inline-icon" />,
   },
+  typescript: {
+    title: "TypeScript",
+    icon: <SiTypescript className="inline-icon" />,
+  },
   nodejs: { title: "Node.js", icon: <FaNode className="inline-icon" /> },
   expressjs: {
     title: "Express.js",
@@ -116,10 +125,12 @@ export const techSkills = {
   },
   aspnet: { title: "ASP.NET", icon: <DiDotnet className="inline-icon" /> },
   reactjs: { title: "React.js", icon: <FaReact className="inline-icon" /> },
+  reactnative: { title: "React Native", icon: <TbBrandReactNative className="inline-icon" /> },
   nextjs: { title: "Next.js", icon: <SiNextdotjs className="inline-icon" /> },
   redux: { title: "Redux", icon: <SiRedux className="inline-icon" /> },
   angular: { title: "Angular", icon: <FaAngular className="inline-icon" /> },
   dotnet: { title: ".Net", icon: <DiDotnet className="inline-icon" /> },
+  json: { title: "JSON", icon: <SiJson className="inline-icon" /> },
 
   // Cloud Development
   restapi: { title: "REST API", icon: <TbApi className="inline-icon" /> },
