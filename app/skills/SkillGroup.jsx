@@ -5,10 +5,6 @@ import { motion } from 'framer-motion';
 function SkillTile({ title, icon }) {
     return (
         <motion.div
-            drag
-            whileDrag={{ scale: 1.5 }}
-            dragSnapToOrigin={true}
-            dragElastic={0.1}
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
             whileTap={{ scale: 0.9, transition: { duration: 0.2 } }}
