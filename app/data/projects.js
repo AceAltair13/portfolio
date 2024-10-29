@@ -7,13 +7,29 @@ import FoodzillaImage from "../../public/foodzilla.png";
 import EventManagementSystem from "../../public/eventmanagementsystem.png";
 import MuiStickyNotesImage from "../../public/muistickynotes.png";
 import SmartSecureLockImage from "../../public/smartsecurelock.png";
+import FundWaveImage from "../../public/fundwave.png";
 
 export const projects = [
+  {
+    title: "FundWave",
+    link: "https://github.com/AceAltair13/fundwave-platform",
+    image: FundWaveImage,
+    description:
+      "FundWave is a Blockchain based CrowdFunding Platform where users can create and manage their campaigns.",
+    skills: [
+      techSkills.nextjs,
+      techSkills.reactjs,
+      techSkills.shadcn,
+      techSkills.thirdweb,
+      techSkills.solidity,
+    ],
+  },
   {
     title: "Portfolio",
     link: "https://github.com/AceAltair13/portfolio",
     image: PortfolioImage,
-    description: "My portfolio website built using Next.js 14.0 and Tailwind CSS.",
+    description:
+      "My portfolio website built using Next.js 14.0 and Tailwind CSS.",
     skills: [
       techSkills.nextjs,
       techSkills.reactjs,
@@ -21,7 +37,7 @@ export const projects = [
       techSkills.javascript,
       techSkills.html,
       techSkills.css,
-    ]
+    ],
   },
   {
     title: "Schedulex",
