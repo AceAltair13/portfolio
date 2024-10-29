@@ -33,12 +33,14 @@ const frameworkSkills = [
   "bootstrap",
   "materialui",
   "tailwindcss",
+  "shadcn",
   "flask",
   "django",
   "fastapi",
   "discordpy",
   "discordjs",
   "tensorflowjs",
+  "thirdweb",
 ].map((skill) => techSkills[skill] || { title: skill, icon: null });
 
 const webdevSkills = [
@@ -55,7 +57,8 @@ const webdevSkills = [
   "redux",
   "angular",
   "dotnet",
-  "json"
+  "json",
+  "solidity"
 ].map((skill) => techSkills[skill] || { title: skill, icon: null });
 
 const cloudSkills = ["restapi", "graphql", "apollo", "aws", "azure", "heroku", "git"].map(

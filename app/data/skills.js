@@ -32,7 +32,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaDiscord } from "react-icons/fa";
 import { IoLogoDiscord } from "react-icons/io5";
-import { SiRstudio } from "react-icons/si";
+import { SiRstudioide } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import { SiAdobecreativecloud } from "react-icons/si";
 import { SiHeroku } from "react-icons/si";
@@ -49,6 +49,10 @@ import { SiTypescript } from "react-icons/si";
 import { SiDart } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiJson } from "react-icons/si";
+import { SiShadcnui } from "react-icons/si";
+import { SiThirdweb } from "react-icons/si";
+import { SiSolidity } from "react-icons/si";
+
 
 export const techSkills = {
   // Programming
@@ -59,9 +63,12 @@ export const techSkills = {
   java: { title: "Java", icon: <FaJava className="inline-icon" /> },
   kotlin: { title: "Kotlin", icon: <SiKotlin className="inline-icon" /> },
   dart: { title: "Dart", icon: <SiDart className="inline-icon" /> },
-  r: { title: "R", icon: <SiRstudio className="inline-icon" /> },
+  r: { title: "R", icon: <SiRstudioide className="inline-icon" /> },
   php: { title: "PHP", icon: <FaPhp className="inline-icon" /> },
-  gdscript: { title: "GDScript", icon: <SiGodotengine className="inline-icon" /> },
+  gdscript: {
+    title: "GDScript",
+    icon: <SiGodotengine className="inline-icon" />,
+  },
 
   // Database
   mysql: { title: "MySQL", icon: <SiMysql className="inline-icon" /> },
@@ -87,6 +94,7 @@ export const techSkills = {
     icon: <FaBootstrap className="inline-icon" />,
   },
   materialui: { title: "Material UI", icon: <SiMui className="inline-icon" /> },
+  shadcn: { title: "Shadcn UI", icon: <SiShadcnui className="inline-icon" /> },
   tailwindcss: {
     title: "Tailwind CSS",
     icon: <SiTailwindcss className="inline-icon" />,
@@ -125,17 +133,25 @@ export const techSkills = {
   },
   aspnet: { title: "ASP.NET", icon: <DiDotnet className="inline-icon" /> },
   reactjs: { title: "React.js", icon: <FaReact className="inline-icon" /> },
-  reactnative: { title: "React Native", icon: <TbBrandReactNative className="inline-icon" /> },
+  reactnative: {
+    title: "React Native",
+    icon: <TbBrandReactNative className="inline-icon" />,
+  },
   nextjs: { title: "Next.js", icon: <SiNextdotjs className="inline-icon" /> },
   redux: { title: "Redux", icon: <SiRedux className="inline-icon" /> },
   angular: { title: "Angular", icon: <FaAngular className="inline-icon" /> },
   dotnet: { title: ".Net", icon: <DiDotnet className="inline-icon" /> },
   json: { title: "JSON", icon: <SiJson className="inline-icon" /> },
+  thirdweb: { title: "Thirdweb", icon: <SiThirdweb className="inline-icon" /> },
+  solidity: { title: "Solidity", icon: <SiSolidity className="inline-icon" /> },
 
   // Cloud Development
   restapi: { title: "REST API", icon: <TbApi className="inline-icon" /> },
   graphql: { title: "GraphQL", icon: <GrGraphQl className="inline-icon" /> },
-  apollo: { title: "Apollo", icon: <SiApollographql className="inline-icon" /> },
+  apollo: {
+    title: "Apollo",
+    icon: <SiApollographql className="inline-icon" />,
+  },
   aws: { title: "AWS", icon: <FaAws className="inline-icon" /> },
   azure: {
     title: "Microsoft Azure",
@@ -159,7 +175,7 @@ export const techSkills = {
     title: "Android Studio",
     icon: <SiAndroidstudio className="inline-icon" />,
   },
-  rstudio: { title: "RStudio", icon: <SiRstudio className="inline-icon" /> },
+  rstudio: { title: "RStudio", icon: <SiRstudioide className="inline-icon" /> },
   adobeacrobat: {
     title: "Adobe Acrobat",
     icon: <SiAdobeacrobatreader className="inline-icon" />,
